@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "api": 1,
+  "id": "example.harvest-post",
+  "name": "Harvest Post",
+  "version": "1.0.0",
+  "authors": [
+    "Play AC Online"
+  ],
+  "description": "Two calendar days of our own, the Harvest Fair and Apple Day, with a notice on the bulletin board and villagers talking about it all day. And once a game day, a script mails you a letter with a little present: a worked example of mod commands and a timer.",
+  "scope": "world",
+  "content": {
+    "calendar": "calendar.json",
+    "letters": "letters.json",
+    "messages": "messages/en.json"
+  },
+  "scripts": {
+    "main": "main.lua",
+    "events": [
+      "day_started",
+      "scene_entered",
+      "command_finished",
+      "timer_fired"
+    ]
+  },
+  "permissions": [
+    "send_letter"
+  ],
+  "assets_original": true
+}
