@@ -3,11 +3,11 @@
   "api": 1,
   "id": "example.harvest-post",
   "name": "Harvest Post",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     "Play AC Online"
   ],
-  "description": "Two calendar days of our own, the Harvest Fair and Apple Day, with a notice on the bulletin board and villagers talking about it all day. And once a game day, a script mails you a letter with a little present: a worked example of mod commands and a timer.",
+  "description": "Two calendar days of our own, the Harvest Fair and Apple Day, with a notice on the bulletin board, villagers talking about it all day and a letter on Apple Day. On fair day you can enter the fruit contest for 100 Bells and get a thank-you letter. And once a game day, a script mails you a letter with a little present: a worked example of mod commands, a question, a setting and a timer.",
   "scope": "world",
   "content": {
     "calendar": "calendar.json",
@@ -19,12 +19,31 @@
     "events": [
       "day_started",
       "scene_entered",
+      "hour_changed",
+      "question_answered",
       "command_finished",
-      "timer_fired"
+      "timer_fired",
+      "letter_read"
     ]
   },
   "permissions": [
-    "send_letter"
+    "send_letter",
+    "show_line",
+    "ask",
+    "take_bells"
+  ],
+  "exports": {
+    "fair_today": "true when today is the Harvest Fair in this town, else false."
+  },
+  "settings": [
+    {
+      "name": "present",
+      "type": "choice",
+      "label": "Present in the daily letter",
+      "description": "Fruit puts a piece of fruit in each day's letter. None sends the letter alone.",
+      "choices": ["fruit", "none"],
+      "default": "fruit"
+    }
   ],
   "assets_original": true
 }

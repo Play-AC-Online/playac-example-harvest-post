@@ -14,6 +14,7 @@
       "id": "apple-day",
       "date": { "month": 10, "day": 21 },
       "board": "APPLE DAY\nShare an apple with a friend\ntoday. Any apple will do,\nbut a red one says it best.",
+      "letter": "apple-day",
       "talk": [
         "Happy Apple Day! Have you shared an apple with anyone yet?",
         "An apple a day, they say. Today it's an apple for everyone!"

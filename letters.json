@@ -8,6 +8,15 @@
       "sender": "The Fair",
       "item": "0x2800",
       "paper": 12
+    },
+    {
+      "id": "apple-day",
+      "header": "Dear {player},",
+      "body": "Happy Apple Day! Here is an\napple to share with a friend.\nOr plant it, and share the\ntree for years to come.",
+      "footer": "The Harvest Post",
+      "sender": "Harvest",
+      "item": "0x2800",
+      "paper": 12
     }
   ]
 }
