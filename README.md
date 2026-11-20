@@ -2,7 +2,7 @@
 
 A World mod (`"scope": "world"`) in two halves:
 
-- **The calendar** (`calendar.json`, `letters.json`): two days of our own.
+- **The calendar** (`calendar.json`, `letters.json`, `talk.json`): two days of our own.
   The Harvest Fair is the third Wednesday of September and Apple Day is
   October 21. A notice goes up on the bulletin board and villagers talk about
   it all day.
@@ -25,7 +25,7 @@ On the third Wednesday of September the town bulletin board carries the mod's no
 
 ![fair line](media/fair-line.webp)
 
-All day, villagers open with a line about the fair from the mod's calendar.json, then carry on in their own words.
+All day, villagers open with a line about the fair from the mod's talk.json, then carry on in their own words.
 
 ![at the mailbox](media/at-the-mailbox.webp)
 
@@ -44,8 +44,11 @@ The film (click the picture): The Harvest Fair notice on the bulletin board and 
 - It adds two calendar days. The Harvest Fair is the third Wednesday of
   September (`week` 3, `weekday` 3). Apple Day is October 21 (`day`).
 - On each day a notice goes up on the town bulletin board. It is posted once,
-  in the player's own town only. Villagers say one of the day's lines before
-  their hello.
+  in the player's own town only.
+- `talk.json` has a pool for each day: `"day"` names the calendar day by its
+  `id`, and `"place": "before"` puts the line before the villager's hello.
+  Every pool names its place; the others are the hello itself, the topic
+  after a chat answer, a line after the topic, and the whole conversation.
 - `letters.json` holds two letter templates. The player's name goes where
   `{player}` is, and an apple comes with each.
 - `fair-thanks` is mailed by the script, with

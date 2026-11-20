@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "place": "before",
+      "day": "harvest-fair",
+      "lines": [
+        "It's the Harvest Fair! I've been polishing my pears since sunrise.",
+        "Harvest Fair day! Did you bring any fruit? Mine is the shiniest, I checked.",
+        "The fair smells like apples and wood smoke. Best day of the season!"
+      ]
+    },
+    {
+      "place": "before",
+      "day": "apple-day",
+      "lines": [
+        "Happy Apple Day! Have you shared an apple with anyone yet?",
+        "An apple a day, they say. Today it's an apple for everyone!"
+      ]
+    }
+  ]
+}

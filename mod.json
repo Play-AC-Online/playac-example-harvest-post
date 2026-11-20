@@ -12,7 +12,8 @@
   "content": {
     "calendar": "calendar.json",
     "letters": "letters.json",
-    "messages": "messages/en.json"
+    "messages": "messages/en.json",
+    "talk": "talk.json"
   },
   "scripts": {
     "main": "main.lua",
