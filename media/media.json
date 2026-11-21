@@ -1,0 +1,25 @@
+{
+  "stills": [
+    {
+      "file": "board.webp",
+      "caption": "On the third Wednesday of September the town bulletin board carries the mod's notice, dated by the game."
+    },
+    {
+      "file": "fair-line.webp",
+      "caption": "All day, villagers open with a line about the fair from the mod's calendar.json, then carry on in their own words."
+    },
+    {
+      "file": "at-the-mailbox.webp",
+      "caption": "The day's first visit to town: the mod's script has already mailed today's letter, so there is mail waiting at the house."
+    },
+    {
+      "file": "the-letter.webp",
+      "caption": "The letter is the mod's own text, from its messages file, sent with the send_letter command from \"A friend\", with a little present attached."
+    }
+  ],
+  "film": {
+    "file": "film.mp4",
+    "poster": "film.webp",
+    "caption": "The Harvest Fair notice on the bulletin board and Twiggy talking about the fair before her usual chat, then a walk to the mailbox to take out the day's letter and read it."
+  }
+}

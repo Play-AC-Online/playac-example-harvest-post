@@ -1,0 +1,15 @@
+{
+  "days": [
+    {
+      "id": "harvest-fair",
+      "date": { "month": 9, "week": 3, "weekday": 3 },
+      "board": "HARVEST FAIR TODAY!\nBring your best fruit and\nshow it to your neighbours.\nThe biggest apple wins\nbragging rights for a year."
+    },
+    {
+      "id": "apple-day",
+      "date": { "month": 10, "day": 21 },
+      "board": "APPLE DAY\nShare an apple with a friend\ntoday. Any apple will do,\nbut a red one says it best.",
+      "letter": "apple-day"
+    }
+  ]
+}
